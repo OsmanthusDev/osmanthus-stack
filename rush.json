@@ -466,12 +466,12 @@
     //   "reviewCategory": "production",
     //   "tags": ["libraries", "web"]
     // },
-    //
-    // {
-    //   "packageName": "my-toolchain",
-    //   "projectFolder": "tools/my-toolchain",
-    //   "reviewCategory": "tools",
-    //   "tags": ["tools"]
-    // }
+
+    {
+      "packageName": "osmanthus-doc",
+      "projectFolder": "osmanthus-doc",
+      "reviewCategory": "osmanthus-doc",
+      "tags": ["doc"]
+    }
   ]
 }
