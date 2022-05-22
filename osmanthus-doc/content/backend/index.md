@@ -19,6 +19,7 @@
 + [uuid](https://github.com/uuidjs/uuid)
 + [dotenv](https://github.com/motdotla/dotenv)
 + [mime-types](https://github.com/jshttp/mime-types)
++ [colors.js](https://github.com/Marak/colors.js)
 + [Prettier](https://prettier.io/)
 + [ESLint](https://eslint.org/)
 
