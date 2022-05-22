@@ -490,6 +490,12 @@
       "projectFolder": "osmanthus-lib",
       "reviewCategory": "osmanthus-lib",
       "tags": ["lib"]
+    },
+    {
+      "packageName": "osmanthus-toolchain",
+      "projectFolder": "osmanthus-toolchain",
+      "reviewCategory": "osmanthus-toolchain",
+      "tags": ["toolchain"]
     }
   ]
 }
