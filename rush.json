@@ -468,6 +468,12 @@
     // },
 
     {
+      "packageName": "osmanthus-backend",
+      "projectFolder": "osmanthus-backend",
+      "reviewCategory": "osmanthus-backend",
+      "tags": ["backend"]
+    },
+    {
       "packageName": "osmanthus-doc",
       "projectFolder": "osmanthus-doc",
       "reviewCategory": "osmanthus-doc",
