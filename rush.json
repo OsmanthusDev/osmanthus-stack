@@ -478,6 +478,12 @@
       "projectFolder": "osmanthus-doc",
       "reviewCategory": "osmanthus-doc",
       "tags": ["doc"]
+    },
+    {
+      "packageName": "osmanthus-spa",
+      "projectFolder": "osmanthus-spa",
+      "reviewCategory": "osmanthus-spa",
+      "tags": ["spa"]
     }
   ]
 }
