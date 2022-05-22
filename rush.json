@@ -484,6 +484,12 @@
       "projectFolder": "osmanthus-spa",
       "reviewCategory": "osmanthus-spa",
       "tags": ["spa"]
+    },
+    {
+      "packageName": "osmanthus-lib",
+      "projectFolder": "osmanthus-lib",
+      "reviewCategory": "osmanthus-lib",
+      "tags": ["lib"]
     }
   ]
 }

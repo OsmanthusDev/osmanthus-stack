@@ -48,6 +48,9 @@ importers:
     devDependencies:
       vitepress: 0.22.4
 
+  ../../osmanthus-lib:
+    specifiers: {}
+
   ../../osmanthus-spa:
     specifiers:
       '@rushstack/eslint-patch': ^1.1.0
