@@ -20,18 +20,18 @@ npm install -D vitepress
 mkdir osmanthus-lib
 
 mkdir osmanthus-spa
+mkdir osmanthus-backend
+mkdir osmanthus-toolchain
 
-mkdir osmanthus-server
-
-cd osmanthus-server
 
 mkdir osmanthus-ssr
 
 mkdir osmanthus-bff
 
-mkdir osmanthus-backend
-
 mkdir osmanthus-mobile
+
+mkdir osmanthus-server
+cd osmanthus-server
 
 rush update
 
