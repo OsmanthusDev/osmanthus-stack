@@ -468,24 +468,6 @@
     // },
 
     {
-      "packageName": "osmanthus-backend",
-      "projectFolder": "osmanthus-backend",
-      "reviewCategory": "osmanthus-backend",
-      "tags": ["backend"]
-    },
-    {
-      "packageName": "osmanthus-doc",
-      "projectFolder": "osmanthus-doc",
-      "reviewCategory": "osmanthus-doc",
-      "tags": ["doc"]
-    },
-    {
-      "packageName": "osmanthus-spa",
-      "projectFolder": "osmanthus-spa",
-      "reviewCategory": "osmanthus-spa",
-      "tags": ["spa"]
-    },
-    {
       "packageName": "osmanthus-lib",
       "projectFolder": "osmanthus-lib",
       "reviewCategory": "osmanthus-lib",
@@ -496,6 +478,30 @@
       "projectFolder": "osmanthus-toolchain",
       "reviewCategory": "osmanthus-toolchain",
       "tags": ["toolchain"]
-    }
+    },
+    {
+      "packageName": "osmanthus-doc",
+      "projectFolder": "osmanthus-doc",
+      "reviewCategory": "osmanthus-doc",
+      "tags": ["doc"]
+    },
+    {
+      "packageName": "osmanthus-backend",
+      "projectFolder": "osmanthus-backend",
+      "reviewCategory": "osmanthus-backend",
+      "tags": ["backend"]
+    },
+    {
+      "packageName": "osmanthus-spa",
+      "projectFolder": "osmanthus-spa",
+      "reviewCategory": "osmanthus-spa",
+      "tags": ["spa"]
+    },
+    {
+      "packageName": "osmanthus-mobile",
+      "projectFolder": "osmanthus-mobile",
+      "reviewCategory": "osmanthus-mobile",
+      "tags": ["mobile"]
+    },
   ]
 }
