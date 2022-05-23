@@ -1,0 +1,7 @@
+{
+  "name": "osmanthus-mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
