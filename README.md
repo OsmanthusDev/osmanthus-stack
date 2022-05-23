@@ -4,11 +4,9 @@ nodejs monorepo
 
 
 + [Rush](https://rushjs.io/zh-cn/)
-+ [EggJS](https://www.eggjs.org/zh-CN)
 + [VitePress](https://vitepress.vuejs.org/)
++ [EggJS](https://www.eggjs.org/zh-CN)
 
-+ [Vue.js](https://vuejs.org/)
-+ [Element Plus](https://element-plus.gitee.io/zh-CN/)
 
 ```shell
 mkdir osmanthus-stack
@@ -36,4 +34,3 @@ cd osmanthus-server
 rush update
 
 ```
-

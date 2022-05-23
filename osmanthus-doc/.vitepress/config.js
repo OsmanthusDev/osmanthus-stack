@@ -4,22 +4,27 @@ const nav = [
   {
     text: 'Backend',
     link: '/content/backend/',
-    activeMatch: '^/backend/'
+    activeMatch: '^/content/backend/'
   },
   {
     text: 'SPA',
     link: '/content/spa/',
-    activeMatch: '^/spa/'
+    activeMatch: '^/content/spa/'
+  },
+  {
+    text: 'Mobile',
+    link: '/content/mobile/',
+    activeMatch: '^/content/mobile/'
   },
   {
     text: 'SSR',
     link: '/content/ssr/',
-    activeMatch: '^/ssr/'
+    activeMatch: '^/content/ssr/'
   },
   {
     text: 'BFF',
     link: '/content/bff/',
-    activeMatch: '^/bff/'
+    activeMatch: '^/content/bff/'
   },
   {
     text: 'VitePress',
@@ -28,7 +33,39 @@ const nav = [
 ]
 
 const sidebar = {
-
+  '/content/backend/': [
+    {
+      text: 'Guide',
+      children: [
+        {
+          text: '概览',
+          link: '/content/backend/overview'
+        },
+      ]
+    },
+  ],
+  '/content/spa/': [
+    {
+      text: 'Guide',
+      children: [
+        {
+          text: '概览',
+          link: '/content/spa/overview'
+        },
+      ]
+    },
+  ],
+  '/content/mobile/': [
+    {
+      text: 'Guide',
+      children: [
+        {
+          text: '概览',
+          link: '/content/mobile/overview'
+        },
+      ]
+    },
+  ],
 }
 
 const config = {
