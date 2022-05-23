@@ -7,6 +7,7 @@ npm install --save cors
 npm install --save multer
 npm install --save morgan
 npm install --save helmet
+npm install --save body-parser
 
 npm install --save ws
 npm install --save sequelize

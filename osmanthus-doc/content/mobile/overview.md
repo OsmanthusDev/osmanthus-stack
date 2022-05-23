@@ -6,10 +6,10 @@ npm install -g @ionic/cli@latest
 ionic start osmanthus-mobile blank --type vue
 
 npm install @capacitor/camera @capacitor/storage @capacitor/filesystem
-npm install @ionic/pwa-elements
-
 npm install @ionic/vue@latest @ionic/vue-router@latest
 npm install vue-virtual-scroller@next
+
+# npm install @ionic/pwa-elements
 
 ionic integrations enable capacitor
 ionic capacitor add android

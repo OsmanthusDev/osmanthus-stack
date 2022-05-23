@@ -27,6 +27,11 @@ const nav = [
     activeMatch: '^/content/bff/'
   },
   {
+    text: 'Demand',
+    link: '/content/demand/',
+    activeMatch: '^/content/demand/'
+  },
+  {
     text: 'VitePress',
     link: 'https://vitepress.vuejs.org/'
   }
@@ -62,6 +67,17 @@ const sidebar = {
         {
           text: '概览',
           link: '/content/mobile/overview'
+        },
+      ]
+    },
+  ],
+  '/content/demand/': [
+    {
+      text: 'Guide',
+      children: [
+        {
+          text: '模块',
+          link: '/content/demand/module'
         },
       ]
     },

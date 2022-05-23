@@ -6,6 +6,8 @@
 + [CORS middleware](https://github.com/expressjs/cors)
 + [Helmet middleware](http://github.com/helmetjs/helmet)
 + [morgan middleware](https://github.com/expressjs/morgan)
++ [body parsing middleware](https://github.com/expressjs/body-parser)
+
 + [jose](https://github.com/panva/jose)
 
 + [ws: a Node.js WebSocket library](https://github.com/websockets/ws)
@@ -23,5 +25,4 @@
 + [Prettier](https://prettier.io/)
 + [ESLint](https://eslint.org/)
 
-+ [body parsing middleware.?](https://github.com/expressjs/body-parser)
 + [formidable.?](https://github.com/node-formidable/formidable)
