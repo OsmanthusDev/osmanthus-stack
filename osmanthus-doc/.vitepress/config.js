@@ -2,34 +2,39 @@
 const nav = [
   { text: 'Home', link: '/', activeMatch: '^/$' },
   {
+    text: 'Guide',
+    link: '/guide/',
+    activeMatch: '^/guide/'
+  },
+  {
     text: 'Backend',
-    link: '/content/backend/',
-    activeMatch: '^/content/backend/'
+    link: '/backend/',
+    activeMatch: '^/backend/'
   },
   {
     text: 'SPA',
-    link: '/content/spa/',
-    activeMatch: '^/content/spa/'
+    link: '/spa/',
+    activeMatch: '^/spa/'
   },
   {
     text: 'Mobile',
-    link: '/content/mobile/',
-    activeMatch: '^/content/mobile/'
+    link: '/mobile/',
+    activeMatch: '^/mobile/'
   },
   {
     text: 'SSR',
-    link: '/content/ssr/',
-    activeMatch: '^/content/ssr/'
+    link: '/ssr/',
+    activeMatch: '^/ssr/'
   },
   {
     text: 'BFF',
-    link: '/content/bff/',
-    activeMatch: '^/content/bff/'
+    link: '/bff/',
+    activeMatch: '^/bff/'
   },
   {
     text: 'Demand',
-    link: '/content/demand/',
-    activeMatch: '^/content/demand/'
+    link: '/demand/',
+    activeMatch: '^/demand/'
   },
   {
     text: 'VitePress',
@@ -38,46 +43,57 @@ const nav = [
 ]
 
 const sidebar = {
-  '/content/backend/': [
+  '/guide/': [
+    {
+      text: 'Guide',
+      children: [
+        {
+          text: '指南',
+          link: '/guide/'
+        },
+      ]
+    },
+  ],
+  '/backend/': [
     {
       text: 'Guide',
       children: [
         {
           text: '概览',
-          link: '/content/backend/overview'
+          link: '/backend/overview'
         },
       ]
     },
   ],
-  '/content/spa/': [
+  '/spa/': [
     {
       text: 'Guide',
       children: [
         {
           text: '概览',
-          link: '/content/spa/overview'
+          link: '/spa/overview'
         },
       ]
     },
   ],
-  '/content/mobile/': [
+  '/mobile/': [
     {
       text: 'Guide',
       children: [
         {
           text: '概览',
-          link: '/content/mobile/overview'
+          link: '/mobile/overview'
         },
       ]
     },
   ],
-  '/content/demand/': [
+  '/demand/': [
     {
       text: 'Guide',
       children: [
         {
           text: '模块',
-          link: '/content/demand/module'
+          link: '/demand/module'
         },
       ]
     },
@@ -86,14 +102,39 @@ const sidebar = {
 
 const config = {
   lang: 'zh-CN',
-  title: 'Osmanthus Doc',
+  title: 'Osmanthus Stack',
   description: 'Osmanthus Doc.',
+  base: '/',
+  srcDir: 'content',
+  srcExclude: ['tutorial/**/description.md'],
+  outDir: 'dist',
+  scrollOffset: 'header',
   lastUpdated: true,
   themeConfig: {
     docsDir: 'content',
     docsBranch: 'main',
+    outDir: 'dist',
     nav: nav,
     sidebar: sidebar,
+  },
+  head: [
+    [
+      'link',
+      {
+        rel: 'shortcut icon',
+        href: 'favicon.png',
+        type: 'image/x-icon'
+      }
+    ]
+  ],
+  markdown: {
+    lineNumbers: false,
+    toc: {
+      includeLevel: [1, 2]
+    },
+  },
+  vite: {
+//    publicDir: 'resources'
   }
 }
 
