@@ -7,6 +7,11 @@
 + [Helmet middleware](http://github.com/helmetjs/helmet)
 + [morgan middleware](https://github.com/expressjs/morgan)
 + [body parsing middleware](https://github.com/expressjs/body-parser)
++ [compression middleware](https://github.com/expressjs/compression)
++ [Request timeout middleware](https://github.com/expressjs/timeout)
++ [Response time middleware](https://github.com/expressjs/response-time)
++ [Create HTTP errors](https://github.com/jshttp/http-errors)
++ [Express.js view engine for handlebars.js](https://github.com/pillarjs/hbs)
 
 + [jose](https://github.com/panva/jose)
 

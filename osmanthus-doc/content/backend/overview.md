@@ -7,7 +7,12 @@ npm install --save cors
 npm install --save multer
 npm install --save morgan
 npm install --save helmet
-npm install --save body-parser
+# npm install --save body-parser
+npm install --save response-time
+npm install --save compression
+npm install --save connect-timeout
+npm install --save http-errors
+npm install --save hbs
 
 npm install --save ws
 npm install --save sequelize

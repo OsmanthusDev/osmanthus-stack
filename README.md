@@ -12,3 +12,9 @@ npm install -g @microsoft/rush
 ```shell
 rush update
 ```
+
+## 添加依赖
+```shell
+cd osmanthus-backend
+rush add --package http-errors
+```
