@@ -92,3 +92,7 @@ coverage
 
 cypress/videos/
 cypress/screenshots/
+
+# Output of 'npm pack'
+*.db
+*.sqlite
